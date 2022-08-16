@@ -56,7 +56,11 @@ int make_it_movable(int mattrix[][4]){
 	//Pattern Selecting For Mattrix
 	printf("Select Pattern For Mattrix 1.'|'  2.'-'  3.'*'  4.'.'  5.'^' \n");
 	scanf("%d",&pattern);
+	printf("WINING CONDITION - SORT THE MATTRIX TO WIN \n");
+
 	pttrn=Pattern_Selecting(pattern);
+	printf("Press Any Key To Play ... ");
+	getch();
 	system("cls");
 	
 	//Making Moving Logic-	
